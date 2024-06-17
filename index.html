@@ -27,7 +27,7 @@
                         <img src="img/logo.png" alt="logo">
                     </div>
                     <div class="col-6 align-self-center text-right">
-                        <a href="#" class="text-white lead">Experimente agora!</a>
+                        <a href="#" class="text-white lead" id="experimentar">Experimente agora!</a>
                     </div>
                 </div>
             </header>
@@ -230,8 +230,14 @@
     <!-- AOS -->
     <script src="js/aos.js"></script>
     <script>
-      AOS.init({
-      });
+    AOS.init({
+    });
+
+    // JavaScript para abrir outra página HTML
+    document.getElementById('experimentar').addEventListener('click', function(event) {
+        event.preventDefault();
+        window.location.href = 'cadastro.html';  // Substitua 'outra-pagina.html' pelo caminho da sua nova página
+    });
     </script>
 </body>
 

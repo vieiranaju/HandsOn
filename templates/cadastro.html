@@ -64,14 +64,7 @@
 <body>
     <div class="container">
         <h2>Cadastre-se para receber as previsões em seu E-mail</h2>
-        <form>
-            <label for="nome">Nome Completo</label>
-            <input type="text" id="nome" name="nome" placeholder="Primeiro nome" required>
-            <input type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome" required>
-            
-            <label for="email">E-mail</label>
-            <input type="email" id="email" name="email" placeholder="exemplo@exemplo.com" required>
-            
+        <form action="/cadastro" method="POST">
             <label for="telefone">Número de Telefone</label>
             <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000" required>
             

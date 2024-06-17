@@ -34,7 +34,7 @@ def cadastro():
         usuarios.append(usuario)
         salvar_usuarios(usuarios)
         
-        return redirect(url_for('cadastro_sucesso'))
+        return redirect(url_for('index.html'))
     
     return render_template('cadastro.html')
 

@@ -4,8 +4,8 @@ from email.mime.image import MIMEImage
 import json
 
 def enviar_email(destinatario, assunto, corpo, anexo=None):
-    EMAIL_ADDRESS = 'seu_email@example.com'
-    EMAIL_PASSWORD = 'sua_senha'
+    EMAIL_ADDRESS = 'kryptoomails@gmail.com'
+    EMAIL_PASSWORD = 'kryp1234'
 
     msg = EmailMessage()
     msg['Subject'] = assunto
